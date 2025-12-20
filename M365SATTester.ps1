@@ -25,8 +25,8 @@ function ExecuteM365SAT {
     param (
         [string]$OutPath,
         [string]$Username,
-        [string[]]$EnvironmentType,
-        [string[]]$Modules,
+        [string]$EnvironmentType,
+        [string]$Modules,
         [string]$LicenseMode,
         [string]$LicenseLevel,
         [string]$ReportType,
