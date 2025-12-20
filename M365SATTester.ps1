@@ -12,7 +12,7 @@ $ScriptConfig = @{
     LicenseMode      = "All"                                         # Specify the license mode (e.g., "E3", "E5" or "All")
     LicenseLevel     = "All"                                        # Specify the license level (e.g. "L1", "L2" or "All")
     ReportType       = "HTML"                                       # Specify the report type (e.g., "CSV", "HTML")
-    AllowLogging     = [true]::Present                            # Enable logging if needed (true/false)
+    AllowLogging     = [false]::Present                            # Enable logging if needed (true/false)
     LocalMode        = [false]::Present                            # Enable local mode if needed (true/false)
     SkipChecks       = [false]::Present                            # Skip checks if needed (true/false)
 }
