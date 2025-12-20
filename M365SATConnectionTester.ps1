@@ -178,4 +178,4 @@ Write-Host "Detected OS: $($OSInfo.OperatingSystem), PowerShell Version: $($OSIn
 Check-M365SATModules
 
 # Run connection tests
-RunConnectionTests -Username "example@example.org"
+RunConnectionTests -Username "alfonso.calvo@tekchill.com"
