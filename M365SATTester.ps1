@@ -5,7 +5,7 @@
     These values will be used when calling the ExecuteM365SAT function.
 #>
 $ScriptConfig = @{
-    OutPath          = "/Users/alfonso.calvo/Documents/GitHub/365-Assessment/M365SAT/M365SAT-Out"                  # Change this path based on your OS (e.g., "C:\Out" for Windows)
+    OutPath          = "/M365SAT/M365SAT-Out"                  # Change this path based on your OS (e.g., "C:\Out" for Windows)
     Username         = "alfonso.calvo@tekchill.com"                        # Replace with your username
     EnvironmentType  = 'M365','AZURE'                               # Specify the environment type (e.g., M365, AZURE, or All)
     Modules          = "All"                                        # Specify the modules to include (e.g., "All" or specific modules (e.g. 'Azure', 'Exchange', 'Office365', 'Sharepoint', 'Teams' ))
