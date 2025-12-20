@@ -38,8 +38,7 @@ function Invoke-MicrosoftSharepointPnPConnection {
             }
             else{
                 Write-Host "Creating EntraIDAppRegistration for PnP.PowerShell..."
-                # $ClientId = Register-PnPEntraIDAppForInteractiveLogin -ApplicationName "PnP Rocks" -Tenant "$TenantName.onmicrosoft.com" -Interactive -AzureEnvironment $SpEnvironment -ErrorAction SilentlyContinue
-                $ClientId = Register-PnPEntraIDAppForInteractiveLogin -ApplicationName "PnP Rocks" -Tenant "$TenantName.onmicrosoft.com" -UseWebLogin -AzureEnvironment $SpEnvironment -ErrorAction SilentlyContinue
+                $ClientId = Register-PnPEntraIDAppForInteractiveLogin -ApplicationName "PnP Rocks" -Tenant "$TenantName.onmicrosoft.com" -Interactive -AzureEnvironment $SpEnvironment -ErrorAction SilentlyContinue
                 $ClientId = $ClientId.'AzureAppId/ClientId'
             }
 
