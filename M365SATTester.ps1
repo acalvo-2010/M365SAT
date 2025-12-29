@@ -6,7 +6,7 @@
 #>
 $ScriptConfig = @{
     OutPath          = "./M365SAT-Out"                  # Change this path based on your OS (e.g., "C:\Out" for Windows)
-    Username         = "alfonso.calvo@tekchill.com"                        # Replace with your username
+    Username         = "assessment@itecll.mx.com"                        # Replace with your username
     EnvironmentType  = 'M365','AZURE'                               # Specify the environment type (e.g., M365, AZURE, or All)
     Modules          = "All"                                        # Specify the modules to include (e.g., "All" or specific modules (e.g. 'Azure', 'Exchange', 'Office365', 'Sharepoint', 'Teams' ))
     LicenseMode      = "All"                                         # Specify the license mode (e.g., "E3", "E5" or "All")
